@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "64a680c55585c10e975dc3c19f67bd5c",
+    "revision": "25ff81a08320076baa78ffaa0fc054bc",
     "url": "/anton-tretjak-22-10-2019/index.html"
   },
   {
-    "revision": "970bd2eaeb51d179913e",
+    "revision": "2a687312e1ffe95940b7",
     "url": "/anton-tretjak-22-10-2019/static/css/main.28d84280.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/anton-tretjak-22-10-2019/static/js/2.5f6ac84b.chunk.js"
   },
   {
-    "revision": "970bd2eaeb51d179913e",
-    "url": "/anton-tretjak-22-10-2019/static/js/main.05fcba49.chunk.js"
+    "revision": "2a687312e1ffe95940b7",
+    "url": "/anton-tretjak-22-10-2019/static/js/main.8547f19c.chunk.js"
   },
   {
     "revision": "3a0fd1d9021a23edfbac",
