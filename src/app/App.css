@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+.error {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 55px;
+  width: 100%;
+  background-color: red;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  transition: .5s ease-in;
+  transform: translateY(60px);
+  z-index: 1000;
+}

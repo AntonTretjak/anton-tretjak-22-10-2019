@@ -1,0 +1,47 @@
+.city-weather {
+    max-width: 740px;
+    padding: 60px 20px;
+    margin: 20px auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 2px 10px;
+    border-radius: 4px;
+}
+
+.city-weather__current, .city-weather__favorite {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.city-weather__favorite_selected {
+    outline: 2px solid red;
+}
+
+.city-weather__current {
+    padding: 40px 20px;
+    font-size: 2em
+}
+
+.city-weather__city-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.city-weather__favorite {
+    cursor: pointer;
+    padding: 15px;
+}
+
+.city-weather__status {
+    font-size: 3em;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+.city-weather__forecast {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
