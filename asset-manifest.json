@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/anton-tretjak-23-10-2019/static/css/main.28d84280.chunk.css",
-    "main.js": "/anton-tretjak-23-10-2019/static/js/main.53209c3b.chunk.js",
-    "main.js.map": "/anton-tretjak-23-10-2019/static/js/main.53209c3b.chunk.js.map",
+    "main.css": "/anton-tretjak-23-10-2019/static/css/main.87eeaea1.chunk.css",
+    "main.js": "/anton-tretjak-23-10-2019/static/js/main.34b49129.chunk.js",
+    "main.js.map": "/anton-tretjak-23-10-2019/static/js/main.34b49129.chunk.js.map",
     "runtime-main.js": "/anton-tretjak-23-10-2019/static/js/runtime-main.e32f8c67.js",
     "runtime-main.js.map": "/anton-tretjak-23-10-2019/static/js/runtime-main.e32f8c67.js.map",
     "static/js/2.5f6ac84b.chunk.js": "/anton-tretjak-23-10-2019/static/js/2.5f6ac84b.chunk.js",
     "static/js/2.5f6ac84b.chunk.js.map": "/anton-tretjak-23-10-2019/static/js/2.5f6ac84b.chunk.js.map",
     "index.html": "/anton-tretjak-23-10-2019/index.html",
-    "precache-manifest.af1256c4ec9ff917aa45dcd5d0af3026.js": "/anton-tretjak-23-10-2019/precache-manifest.af1256c4ec9ff917aa45dcd5d0af3026.js",
+    "precache-manifest.78e48920c855633036713e4006d65387.js": "/anton-tretjak-23-10-2019/precache-manifest.78e48920c855633036713e4006d65387.js",
     "service-worker.js": "/anton-tretjak-23-10-2019/service-worker.js",
-    "static/css/main.28d84280.chunk.css.map": "/anton-tretjak-23-10-2019/static/css/main.28d84280.chunk.css.map"
+    "static/css/main.87eeaea1.chunk.css.map": "/anton-tretjak-23-10-2019/static/css/main.87eeaea1.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.e32f8c67.js",
     "static/js/2.5f6ac84b.chunk.js",
-    "static/css/main.28d84280.chunk.css",
-    "static/js/main.53209c3b.chunk.js"
+    "static/css/main.87eeaea1.chunk.css",
+    "static/js/main.34b49129.chunk.js"
   ]
 }
