@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/anton-tretjak-22-10-2019/static/css/main.28d84280.chunk.css",
+    "main.js": "/anton-tretjak-22-10-2019/static/js/main.1a6bb3d4.chunk.js",
+    "main.js.map": "/anton-tretjak-22-10-2019/static/js/main.1a6bb3d4.chunk.js.map",
+    "runtime-main.js": "/anton-tretjak-22-10-2019/static/js/runtime-main.fb4fb576.js",
+    "runtime-main.js.map": "/anton-tretjak-22-10-2019/static/js/runtime-main.fb4fb576.js.map",
+    "static/js/2.5f6ac84b.chunk.js": "/anton-tretjak-22-10-2019/static/js/2.5f6ac84b.chunk.js",
+    "static/js/2.5f6ac84b.chunk.js.map": "/anton-tretjak-22-10-2019/static/js/2.5f6ac84b.chunk.js.map",
+    "index.html": "/anton-tretjak-22-10-2019/index.html",
+    "precache-manifest.3a2e49895951d5766e874a3c70f7c72d.js": "/anton-tretjak-22-10-2019/precache-manifest.3a2e49895951d5766e874a3c70f7c72d.js",
+    "service-worker.js": "/anton-tretjak-22-10-2019/service-worker.js",
+    "static/css/main.28d84280.chunk.css.map": "/anton-tretjak-22-10-2019/static/css/main.28d84280.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb4fb576.js",
+    "static/js/2.5f6ac84b.chunk.js",
+    "static/css/main.28d84280.chunk.css",
+    "static/js/main.1a6bb3d4.chunk.js"
+  ]
+}
