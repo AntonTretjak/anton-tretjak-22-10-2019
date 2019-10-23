@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/anton-tretjak-23-10-2019/precache-manifest.3940d9a5167b794fb16eaa5f5d6ee0ad.js"
+  "/anton-tretjak-23-10-2019/precache-manifest.9d96562f64825968fb21f8ece5abada8.js"
 );
 
 self.addEventListener('message', (event) => {
