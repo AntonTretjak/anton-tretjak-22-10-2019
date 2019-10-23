@@ -13,8 +13,8 @@ const App = () => {
     <div className='App'>
       <Header/>
       <Switch>
-        <Route exact path='/' component={Home} />
-        <Route exact path='/favorites' component={Favorites} />
+        <Route exact path='/anton-tretjak-23-10-2019' component={Home} />
+        <Route exact path='/anton-tretjak-23-10-2019/favorites' component={Favorites} />
       </Switch>
     </div>
   );

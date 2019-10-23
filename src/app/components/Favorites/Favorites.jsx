@@ -26,14 +26,9 @@ class Favorites extends React.Component {
     });
   };
 
-  render() {
-    if (this.state.redirect) {
-      return <Redirect to='/'/>
-    }
-
-    const { cities } = this.props;
-
-    const favorites = Object.keys(this.state.favorites) && Object.keys(this.state.favorites).map((item) => {
+  favorites = () => {
+    return Object.keys(this.state.favorites) && Object.keys(this.state.favorites).map((item) => {
+      const { cities } = this.props;
       const temp = cities[item];
       const temperature = temp && temp.Temperature.Metric.Value ? temp.Temperature.Metric.Value + temp.Temperature.Metric.Unit : '- -';
       return <div key={item} onClick={() => this.navigateToHome(item, this.state.favorites[item])}>
@@ -44,10 +39,16 @@ class Favorites extends React.Component {
         />
       </div>;
     });
+  };
+
+  render() {
+    if (this.state.redirect) {
+      return <Redirect to='/anton-tretjak-23-10-2019'/>
+    }
 
     return <div className='city-weather'>
       <div className='city-weather__forecast'>
-        {favorites}
+        {Object.keys(this.state.favorites) && Object.keys(this.state.favorites).length ? this.favorites() : 'There is no favorites now'}
       </div>
     </div>;
   }

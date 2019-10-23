@@ -3,16 +3,14 @@ import React from 'react';
 import './index.css';
 
 const Search = props => {
-  const {searchResults, error, search, select} = props;
+  const {searchResults, search, select} = props;
   const [value, setValue] = React.useState('');
-  const searchResultsNode = !error
-    ? searchResults.map((item) =>
-      <div
-        onClick={() => select(item.Key, item.LocalizedName)}
-        key={item.Key}
-        className='search-app__option'
-      >{item.LocalizedName}</div>)
-    : <div className='search-app__option search-app__option_error'>{error}</div>;
+  const searchResultsNode = searchResults.map((item) =>
+    <div
+      onClick={() => select(item.Key, item.LocalizedName)}
+      key={item.Key}
+      className='search-app__option'
+    >{item.LocalizedName}</div>);
 
   const handleChange = event => {
     setValue(event.target.value);

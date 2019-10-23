@@ -4,7 +4,7 @@ import { apikey } from "../utils/constants";
 export function searchPlace(text) {
   return new Promise((resolve, reject) => {
     callServer({
-      url: `http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${apikey}&q=${text}`,
+      url: `https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${apikey}&q=${text}`,
       method: "GET",
       headers:  {
         "content-type": "application/json"
@@ -23,7 +23,7 @@ export function searchPlace(text) {
 export function getCurrentWeather(key) {
   return new Promise((resolve, reject) => {
     callServer({
-      url: `http://dataservice.accuweather.com/currentconditions/v1/${key}?apikey=${apikey}`,
+      url: `https://dataservice.accuweather.com/currentconditions/v1/${key}?apikey=${apikey}`,
       method: "GET",
       headers:  {
         "content-type": "application/json"
@@ -42,7 +42,7 @@ export function getCurrentWeather(key) {
 export function getForecast(key) {
   return new Promise((resolve, reject) => {
     callServer({
-      url: `http://dataservice.accuweather.com/forecasts/v1/daily/5day/${key}?apikey=${apikey}&metric=true`,
+      url: `https://dataservice.accuweather.com/forecasts/v1/daily/5day/${key}?apikey=${apikey}&metric=true`,
       method: "GET",
       headers:  {
         "content-type": "application/json"

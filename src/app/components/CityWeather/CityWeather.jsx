@@ -28,16 +28,18 @@ class CityWeather extends React.Component{
     });
   }
 
-  render() {
-    const { city, temperature, weeklyForecast, currentStatus, cityKey } = this.props;
-
+  forecast = () => {
     const getTemperature = (item) => {
       const temp = item.Temperature.Maximum;
       return temp ? temp.Value + temp.Unit : '- -'
     };
 
-    const forecasts = weeklyForecast && weeklyForecast.map((item, index) =>
+    return this.props.weeklyForecast && this.props.weeklyForecast.map((item, index) =>
       <Card key={index} topText={moment(item.Date).format('ddd')} middleText={getTemperature(item)} />);
+  };
+
+  render() {
+    const { city, temperature, currentStatus, cityKey } = this.props;
 
     return <div className='city-weather'>
       <div className='city-weather__current'>
@@ -61,7 +63,7 @@ class CityWeather extends React.Component{
         {currentStatus}
       </div>
       <div className='city-weather__forecast'>
-        {forecasts}
+        {this.forecast()}
       </div>
     </div>;
   }

@@ -11,8 +11,8 @@ const Header = props => {
       <span>Herolo Weather Task</span>
     </div>
     <div className='main-header__nav'>
-      <Link to='/'>Home</Link>
-      <Link to='/favorites'>Favorites</Link>
+      <Link to='/anton-tretjak-23-10-2019'>Home</Link>
+      <Link to='/anton-tretjak-23-10-2019/favorites'>Favorites</Link>
     </div>
   </div>;
 };
